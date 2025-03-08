@@ -6,21 +6,18 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Overview
-CrackNet è un tool hacker anni '89 esclusivo per Termux su Android, con un bot AI per hack automatici. Include:
+CrackNet è un tool hacker anni '89 esclusivo per Termux, leggero ed efficiente. Include:
 - WiFi Wardialer (simulato)
-- Pin Phreaker (via ADB)
-- Tone Blaster (SMS via Twilio)
+- Pin Phreaker (via ADB, opzionale)
 - AI Cracker (accesso binario)
-- SIM Jacker (USB-to-jack)
 - CrackBot (automazione)
 
 ## Requisiti Hardware
-- **Android Device**: USB Debugging attivo.
-- **USB-to-Jack Adapter**: USB-to-serial (es. PL2303) per SIM/ATM.
-- **WiFi Adapter (opzionale)**: Per wardialing reale (es. Alfa AWUS036H, richiede root).
+- **Android Device**: Termux installato.
+- **USB Debugging (opzionale)**: Per Pin Phreaker con ADB.
 
 ## Requisiti Software
-- **Termux**: Scarica da F-Droid (solo Termux supportato).
+- **Termux**: Scarica da F-Droid.
 - **Pacchetti Termux**:
   ```bash
   pkg update && pkg upgrade -y
